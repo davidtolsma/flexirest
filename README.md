@@ -160,7 +160,8 @@ The general steps are the same as for almost all codebases on GitHub:
 1. Fork it and clone your fork
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request on GitHub.com
+4. Verify Test Pass (`rake spec`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create new Pull Request on GitHub.com
 
 We have a guide written about [Flexirest Internals](docs/internals.md) if you want to know how it all hangs together. We also have lots of RSpec specifications, tested with Travis CI.
